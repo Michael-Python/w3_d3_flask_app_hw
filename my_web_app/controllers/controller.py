@@ -1,4 +1,4 @@
 from app import app
-@app.route ('/') #ADDED
+@app.route ('/<name>') #ADDED
 def greet(name): #ADDED
-    return f"Hello, {name}!" #ADDED
+    return f"Hi {name}!" #ADDED
